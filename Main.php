@@ -9,7 +9,7 @@
     <div class=" form-group row">
     <div class="card-body">
         <div class="alert alert-primary text-center mt-0">
-            <h3>Selamat Datang</h3>
+            <h3>Hallo, Selamat Datang!</h3>
         </div>
     
     <div class="text-center">
