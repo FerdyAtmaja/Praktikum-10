@@ -18,7 +18,7 @@
     <?php echo "<Center>Selamat datang pada hari ".date("l ,d F Y")."<Center><br>"; 
         echo'
         <a href="guestbook.php" class="btn btn-primary">Guestbook</a>
-        <a href="login.php" class="btn btn-danger">Logout</a>
+        <a href="Main.php" class="btn btn-danger">Logout</a>
     </div>
     </div>
     </div>';
