@@ -10,6 +10,7 @@ $data = mysqli_query($conn,"SELECT * FROM user WHERE username='$username' AND pa
 $cek = mysqli_num_rows($data);
 
 if($cek > 0){
+	session_start();
 	$_SESSION['username2'] = $username;
 	$_SESSION['status'] = "login";
 	header("location:beranda.php");
